@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: rgb(237, 237, 237);
+}
+.container{
+    width: 960px;
+    margin-top: 50px; 
+    margin-right: auto;
+    margin-left: auto;
+}
+.border-css{
+    border-radius: 5px;
+    border: 5px solid rgb(95, 179, 189);
+
+}
+.content__heading{
+    background-color: rgb(26, 30, 51);
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    height: 48px;
+    width: 156px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:-10px;
+    left: 16px;
+}
+.text-css{
+    font-size: 12px;
+    opacity: 0.8;
+    line-height: 2;
+}
+.underline{
+    text-decoration: underline;
+}
+.mg-t36{
+    margin-top: 36px;
+}
+
+
+
+
+/* header */
+#header{
+    height: 110px;
+    background-color: rgb(76, 143, 150);
+    margin-bottom: 53px;
+}
+#nav{
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+#nav li{
+    display: inline-block;
+    background-color: rgb(26, 30, 51);
+    
+}
+#nav li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+#nav .logo-nav {
+    float: left;
+    margin-top: 25px;
+    padding: 42px 30px;
+    font-size: 48px;
+    font-weight: bold;
+    width: 270px;
+    text-align: center;
+    cursor: pointer;
+}
+#nav .sub-nav{
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin-top: 70px;
+    margin-left:22px;
+    float: right;
+    
+}
+#nav .sub-nav:hover{
+    opacity: 0.5;
+}
+.slider {
+    border: 2px solid rgb(95, 179, 189);
+    display: flex;
+    margin-top: 100px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.slider p{
+    font-size: 35px;
+    font-weight: 800;
+    margin-left: 40px;
+    margin-right: 110px;
+    color: rgb(26, 30, 51);
+    letter-spacing: -1px;
+    
+}
+#body .body-content{
+    display:flex;
+    
+    justify-content: space-between;
+    
+
+}
+#body .body-content .list-item{
+    flex-basis: 220px;
+   
+    
+    
+}
+
+.list-item p{
+    margin-top: 8px;
+}
+.list-item img{
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    margin-bottom: 28px;
+    width: 100%;
+    cursor: pointer;
+    opacity: 1;
+}
+.list-item img:hover{
+    opacity: 0.9;
+}
+.body-info{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.featured{
+    margin-right: 10px;
+    flex: 1;
+    background-color: #fff;
+}
+.box-1__content{
+    margin: 0 16px 36px;
+}
+.hairstyle{
+    margin-left: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.hairstyle, 
+.featured{
+    position: relative;
+}
+.body-info .info-heading{
+    background-color: rgb(26, 30, 51);
+    color: #fff;
+}
+.featured-heading{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row-reverse;    
+    margin: 56px 16px 0 16px;
+}
+.featured-heading h3{
+    margin-right: 130px;
+    opacity: 0.6;
+}
+.hairstyle .box-1,
+.hairstyle .box-2{
+    background-color: rgb(76, 143, 150);
+    color: #fff;
+}
+.box-1 p{
+    margin: 80px 20px 25px 16px;
+}
+.box-1 div{
+    float: right;
+    margin:0 20px 28px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+.hairstyle .box-2{
+    display: flex;
+    width: 465px;
+    height: 225px;
+    margin-top: 28px;
+    position: relative;
+    
+}
+.hairstyle .box-2 p{
+    margin: 36px 20px 40px 212px;
+    font-size: 16px;
+    line-height: 1.9;
+    font-weight: 600;
+    
+}
+.hairstyle .box-2 img{
+    position:absolute;
+    top: -15px;
+}
+#footer{
+    background-color: rgb(76, 143, 150);
+    height: 120px;
+    margin:50px 0 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#footer p{
+    color: #fff;
+}
+#footer .contact{
+    background-color: rgb(56, 122, 130);
+    padding: 20px 24px;
+    display: flex;
+    width: 184px;
+    height: 60px;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    right: 204px;
+
+    
+}
+.contact .contact-icon{
+    opacity: 0.2;
+    font-size: 22px;
+    cursor: pointer;
+}
+.contact .contact-icon:hover{
+    opacity: 0.5;
+}
+.contact-icon + .contact-icon{
+    margin-left: 16px;
+}
+
+
+
+
+
+
